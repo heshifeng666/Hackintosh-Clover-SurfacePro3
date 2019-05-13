@@ -99,7 +99,7 @@
 		<false/>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
+			<key>PciRoot(0)/Pci(0x2,0)</key>
 			<dict>
 				<key>## @1 HDMI</key>
 				<string></string>
@@ -162,6 +162,14 @@
 				<data>
 				AAgAAA==
 				</data>
+				<key>#framebuffer-cursormem</key>
+				<data>
+				AACQAA==
+				</data>
+				<key>#framebuffer-fbmem</key>
+				<data>
+				AACQAA==
+				</data>
 				<key>#framebuffer-patch0-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-patch0-find</key>
@@ -182,43 +190,28 @@
 				<data>
 				AQAAAEAAAAAfAgAABQUJAQ==
 				</data>
+				<key>#framebuffer-stolenmem</key>
+				<data>
+				AAAwAQ==
+				</data>
 				<key>#hda-gfx</key>
 				<string>onboard-1</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				BQAmCg==
+				BgAmCg==
 				</data>
 				<key>device-id</key>
 				<data>
 				EgQAAA==
 				</data>
-				<key>framebuffer-cursormem</key>
-				<data>
-				AACQAA==
-				</data>
+				<key>enable-hdmi20</key>
+				<integer>1</integer>
 				<key>framebuffer-patch-enable</key>
 				<integer>1</integer>
 				<key>framebuffer-unifiedmem</key>
 				<data>
-				AAAAgA==
+				AAAAwA==
 				</data>
-			</dict>
-			<key>PciRoot(0)/Pci(0x03,0)</key>
-			<dict>
-				<key>#hda-gfx</key>
-				<string>onboard-1</string>
-				<key>#layout-id</key>
-				<integer>3</integer>
-				<key>#no-controller-patch</key>
-				<integer>1</integer>
-			</dict>
-			<key>PciRoot(0)/Pci(0x1b,0)</key>
-			<dict>
-				<key>#PinConfigurations</key>
-				<data>
-				</data>
-				<key>#layout-id</key>
-				<integer>3</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -409,7 +402,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C027041014NH69FFB</string>
+		<string>C02744130GUH69F8C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
